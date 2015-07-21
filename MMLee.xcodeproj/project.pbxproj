@@ -15,6 +15,15 @@
 		9803E7361B5E31A100ACE445 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9803E7351B5E31A100ACE445 /* Images.xcassets */; };
 		9803E7391B5E31A100ACE445 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9803E7371B5E31A100ACE445 /* LaunchScreen.xib */; };
 		9803E7451B5E31A100ACE445 /* MMLeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9803E7441B5E31A100ACE445 /* MMLeeTests.m */; };
+		983443031B5E39CC0053E65C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983443021B5E39CC0053E65C /* MainViewController.m */; };
+		9834430A1B5E3FED0053E65C /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983443091B5E3FED0053E65C /* MapViewController.m */; };
+		9834430D1B5E40220053E65C /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9834430C1B5E40220053E65C /* LoginViewController.m */; };
+		983443101B5E40310053E65C /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9834430F1B5E40310053E65C /* PersonViewController.m */; };
+		983443131B5E403F0053E65C /* IMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983443121B5E403F0053E65C /* IMViewController.m */; };
+		983443161B5E404A0053E65C /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983443151B5E404A0053E65C /* NewsViewController.m */; };
+		983443191B5E405F0053E65C /* MusicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983443181B5E405F0053E65C /* MusicViewController.m */; };
+		9834431C1B5E40720053E65C /* AmuseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9834431B1B5E40720053E65C /* AmuseViewController.m */; };
+		9834431F1B5E4A320053E65C /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9834431E1B5E4A320053E65C /* CustomCollectionViewCell.m */; };
 		C10AA86A9FAFF5471ACF1D7A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E759019A22418CD3354B0C04 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +53,25 @@
 		9803E73E1B5E31A100ACE445 /* MMLeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMLeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9803E7431B5E31A100ACE445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9803E7441B5E31A100ACE445 /* MMLeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMLeeTests.m; sourceTree = "<group>"; };
+		983443011B5E39CC0053E65C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		983443021B5E39CC0053E65C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		983443071B5E3F8A0053E65C /* PublicClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PublicClass.h; sourceTree = "<group>"; };
+		983443081B5E3FED0053E65C /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		983443091B5E3FED0053E65C /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		9834430B1B5E40220053E65C /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9834430C1B5E40220053E65C /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9834430E1B5E40310053E65C /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		9834430F1B5E40310053E65C /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		983443111B5E403F0053E65C /* IMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMViewController.h; sourceTree = "<group>"; };
+		983443121B5E403F0053E65C /* IMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMViewController.m; sourceTree = "<group>"; };
+		983443141B5E404A0053E65C /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		983443151B5E404A0053E65C /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		983443171B5E405F0053E65C /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		983443181B5E405F0053E65C /* MusicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicViewController.m; sourceTree = "<group>"; };
+		9834431A1B5E40720053E65C /* AmuseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmuseViewController.h; sourceTree = "<group>"; };
+		9834431B1B5E40720053E65C /* AmuseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmuseViewController.m; sourceTree = "<group>"; };
+		9834431D1B5E4A320053E65C /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
+		9834431E1B5E4A320053E65C /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 		E759019A22418CD3354B0C04 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F72A6ABDA6D6B7BCA3E726CB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -169,6 +197,8 @@
 		9803E7581B5E343500ACE445 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				983443081B5E3FED0053E65C /* MapViewController.h */,
+				983443091B5E3FED0053E65C /* MapViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -208,6 +238,8 @@
 		9803E75D1B5E343500ACE445 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9834430B1B5E40220053E65C /* LoginViewController.h */,
+				9834430C1B5E40220053E65C /* LoginViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -240,6 +272,7 @@
 				9803E7631B5E343500ACE445 /* image */,
 				9803E7641B5E343500ACE445 /* Model */,
 				9803E7651B5E343500ACE445 /* View */,
+				983443071B5E3F8A0053E65C /* PublicClass.h */,
 			);
 			path = "第三方库";
 			sourceTree = "<group>";
@@ -286,6 +319,8 @@
 		9803E7671B5E343500ACE445 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9834430E1B5E40310053E65C /* PersonViewController.h */,
+				9834430F1B5E40310053E65C /* PersonViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -325,6 +360,8 @@
 		9803E76C1B5E343500ACE445 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				983443111B5E403F0053E65C /* IMViewController.h */,
+				983443121B5E403F0053E65C /* IMViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -364,6 +401,8 @@
 		9803E7711B5E343500ACE445 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				983443011B5E39CC0053E65C /* MainViewController.h */,
+				983443021B5E39CC0053E65C /* MainViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -385,6 +424,8 @@
 		9803E7741B5E343500ACE445 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9834431D1B5E4A320053E65C /* CustomCollectionViewCell.h */,
+				9834431E1B5E4A320053E65C /* CustomCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -403,6 +444,8 @@
 		9803E7761B5E343500ACE445 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				983443141B5E404A0053E65C /* NewsViewController.h */,
+				983443151B5E404A0053E65C /* NewsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -442,6 +485,8 @@
 		9803E77B1B5E343500ACE445 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				983443171B5E405F0053E65C /* MusicViewController.h */,
+				983443181B5E405F0053E65C /* MusicViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -481,6 +526,8 @@
 		9803E7801B5E343500ACE445 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				9834431A1B5E40720053E65C /* AmuseViewController.h */,
+				9834431B1B5E40720053E65C /* AmuseViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -552,7 +599,7 @@
 		9803E71A1B5E31A100ACE445 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "郭梦浩";
 				TargetAttributes = {
 					9803E7211B5E31A100ACE445 = {
@@ -643,8 +690,17 @@
 			files = (
 				9803E72B1B5E31A100ACE445 /* AppDelegate.m in Sources */,
 				9803E72E1B5E31A100ACE445 /* MMLee.xcdatamodeld in Sources */,
+				983443131B5E403F0053E65C /* IMViewController.m in Sources */,
+				9834431F1B5E4A320053E65C /* CustomCollectionViewCell.m in Sources */,
 				9803E7311B5E31A100ACE445 /* ViewController.m in Sources */,
+				9834430A1B5E3FED0053E65C /* MapViewController.m in Sources */,
+				9834430D1B5E40220053E65C /* LoginViewController.m in Sources */,
+				983443031B5E39CC0053E65C /* MainViewController.m in Sources */,
+				983443161B5E404A0053E65C /* NewsViewController.m in Sources */,
+				983443191B5E405F0053E65C /* MusicViewController.m in Sources */,
 				9803E7281B5E31A100ACE445 /* main.m in Sources */,
+				9834431C1B5E40720053E65C /* AmuseViewController.m in Sources */,
+				983443101B5E40310053E65C /* PersonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -707,6 +763,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -775,6 +832,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MMLee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guomenghao.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -786,6 +844,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MMLee/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guomenghao.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -804,6 +863,7 @@
 				);
 				INFOPLIST_FILE = MMLeeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guomenghao.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMLee.app/MMLee";
 			};
@@ -819,6 +879,7 @@
 				);
 				INFOPLIST_FILE = MMLeeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guomenghao.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMLee.app/MMLee";
 			};

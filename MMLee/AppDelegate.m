@@ -7,16 +7,45 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainViewController.h"
+#import "PersonViewController.h"
+#import "MapViewController.h"
+#import "LoginViewController.h"
+#import "IMViewController.h"
+#import "NewsViewController.h"
+#import "MusicViewController.h"
+#import "AmuseViewController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
+- (UIWindow *)window {
+    
+    if (!_window) {
+        _window = ({
+            
+            UIWindow * window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+            MainViewController *mainViewController = [[MainViewController alloc] init];
+            UINavigationController *navMap = [[UINavigationController alloc] initWithRootViewController:[[MapViewController alloc] init]];
+            UINavigationController *navNews = [[UINavigationController alloc] initWithRootViewController:[[NewsViewController alloc] init]];
+            UINavigationController *navMusic = [[UINavigationController alloc] initWithRootViewController:[[MusicViewController alloc] init]];
+            UINavigationController *navAmuse = [[UINavigationController alloc] initWithRootViewController:[[AmuseViewController alloc] init]];
+            mainViewController.childControllers = @[navNews,navMusic,navAmuse,navMap];
+            window.rootViewController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
+            window;
+            
+        });
+    }
+    
+    return _window;
+
+}
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
