@@ -83,6 +83,15 @@
 		9803E7241B5E31A100ACE445 /* MMLee */ = {
 			isa = PBXGroup;
 			children = (
+				9803E7571B5E343500ACE445 /* 地图 */,
+				9803E75C1B5E343500ACE445 /* 登录 */,
+				9803E7611B5E343500ACE445 /* 第三方库 */,
+				9803E7661B5E343500ACE445 /* 个人信息 */,
+				9803E76B1B5E343500ACE445 /* 通信 */,
+				9803E7701B5E343500ACE445 /* 项目主框架 */,
+				9803E7751B5E343500ACE445 /* 新闻 */,
+				9803E77A1B5E343500ACE445 /* 音乐 */,
+				9803E77F1B5E343500ACE445 /* 娱乐 */,
 				9803E7291B5E31A100ACE445 /* AppDelegate.h */,
 				9803E72A1B5E31A100ACE445 /* AppDelegate.m */,
 				9803E72F1B5E31A100ACE445 /* ViewController.h */,
@@ -120,6 +129,357 @@
 				9803E7431B5E31A100ACE445 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9803E7571B5E343500ACE445 /* 地图 */ = {
+			isa = PBXGroup;
+			children = (
+				9803E7581B5E343500ACE445 /* Controller */,
+				9803E7591B5E343500ACE445 /* image */,
+				9803E75A1B5E343500ACE445 /* Model */,
+				9803E75B1B5E343500ACE445 /* View */,
+			);
+			path = "地图";
+			sourceTree = "<group>";
+		};
+		9803E7581B5E343500ACE445 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9803E7591B5E343500ACE445 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		9803E75A1B5E343500ACE445 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9803E75B1B5E343500ACE445 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9803E75C1B5E343500ACE445 /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				9803E75D1B5E343500ACE445 /* Controller */,
+				9803E75E1B5E343500ACE445 /* image */,
+				9803E75F1B5E343500ACE445 /* Model */,
+				9803E7601B5E343500ACE445 /* View */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		9803E75D1B5E343500ACE445 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9803E75E1B5E343500ACE445 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		9803E75F1B5E343500ACE445 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9803E7601B5E343500ACE445 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9803E7611B5E343500ACE445 /* 第三方库 */ = {
+			isa = PBXGroup;
+			children = (
+				9803E7621B5E343500ACE445 /* Controller */,
+				9803E7631B5E343500ACE445 /* image */,
+				9803E7641B5E343500ACE445 /* Model */,
+				9803E7651B5E343500ACE445 /* View */,
+			);
+			path = "第三方库";
+			sourceTree = "<group>";
+		};
+		9803E7621B5E343500ACE445 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9803E7631B5E343500ACE445 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		9803E7641B5E343500ACE445 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9803E7651B5E343500ACE445 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9803E7661B5E343500ACE445 /* 个人信息 */ = {
+			isa = PBXGroup;
+			children = (
+				9803E7671B5E343500ACE445 /* Controller */,
+				9803E7681B5E343500ACE445 /* image */,
+				9803E7691B5E343500ACE445 /* Model */,
+				9803E76A1B5E343500ACE445 /* View */,
+			);
+			path = "个人信息";
+			sourceTree = "<group>";
+		};
+		9803E7671B5E343500ACE445 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9803E7681B5E343500ACE445 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		9803E7691B5E343500ACE445 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9803E76A1B5E343500ACE445 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9803E76B1B5E343500ACE445 /* 通信 */ = {
+			isa = PBXGroup;
+			children = (
+				9803E76C1B5E343500ACE445 /* Controller */,
+				9803E76D1B5E343500ACE445 /* image */,
+				9803E76E1B5E343500ACE445 /* Model */,
+				9803E76F1B5E343500ACE445 /* View */,
+			);
+			path = "通信";
+			sourceTree = "<group>";
+		};
+		9803E76C1B5E343500ACE445 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9803E76D1B5E343500ACE445 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		9803E76E1B5E343500ACE445 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9803E76F1B5E343500ACE445 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9803E7701B5E343500ACE445 /* 项目主框架 */ = {
+			isa = PBXGroup;
+			children = (
+				9803E7711B5E343500ACE445 /* Controller */,
+				9803E7721B5E343500ACE445 /* image */,
+				9803E7731B5E343500ACE445 /* Model */,
+				9803E7741B5E343500ACE445 /* View */,
+			);
+			path = "项目主框架";
+			sourceTree = "<group>";
+		};
+		9803E7711B5E343500ACE445 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9803E7721B5E343500ACE445 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		9803E7731B5E343500ACE445 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9803E7741B5E343500ACE445 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9803E7751B5E343500ACE445 /* 新闻 */ = {
+			isa = PBXGroup;
+			children = (
+				9803E7761B5E343500ACE445 /* Controller */,
+				9803E7771B5E343500ACE445 /* image */,
+				9803E7781B5E343500ACE445 /* Model */,
+				9803E7791B5E343500ACE445 /* View */,
+			);
+			path = "新闻";
+			sourceTree = "<group>";
+		};
+		9803E7761B5E343500ACE445 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9803E7771B5E343500ACE445 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		9803E7781B5E343500ACE445 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9803E7791B5E343500ACE445 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9803E77A1B5E343500ACE445 /* 音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				9803E77B1B5E343500ACE445 /* Controller */,
+				9803E77C1B5E343500ACE445 /* image */,
+				9803E77D1B5E343500ACE445 /* Model */,
+				9803E77E1B5E343500ACE445 /* View */,
+			);
+			path = "音乐";
+			sourceTree = "<group>";
+		};
+		9803E77B1B5E343500ACE445 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9803E77C1B5E343500ACE445 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		9803E77D1B5E343500ACE445 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9803E77E1B5E343500ACE445 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9803E77F1B5E343500ACE445 /* 娱乐 */ = {
+			isa = PBXGroup;
+			children = (
+				9803E7801B5E343500ACE445 /* Controller */,
+				9803E7811B5E343500ACE445 /* image */,
+				9803E7821B5E343500ACE445 /* Model */,
+				9803E7831B5E343500ACE445 /* View */,
+			);
+			path = "娱乐";
+			sourceTree = "<group>";
+		};
+		9803E7801B5E343500ACE445 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9803E7811B5E343500ACE445 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		9803E7821B5E343500ACE445 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9803E7831B5E343500ACE445 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
