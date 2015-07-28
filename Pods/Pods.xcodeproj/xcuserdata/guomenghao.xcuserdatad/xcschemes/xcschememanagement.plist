@@ -14,6 +14,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-MMLee-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MMLee.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -24,7 +29,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-MMLeeTests-SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MMLeeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SDWebImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -37,32 +52,47 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>01D8DBD78A787E0807E94DB6</key>
+		<key>1A672EADD0D02DDCFE31A603</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0D950352A57D333316774080</key>
+		<key>251FC78B291714FE17B4222F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>29EC33C855D8E0BDF8716961</key>
+		<key>347ADE3CBC3EBDB133648A76</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>519263E098EB8F3E9A164031</key>
+		<key>6AC411EF6ECA1B4B4A850A20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>70D8D7038072999BE8064E5D</key>
+		<key>6EB6098576091E4E5F3AB547</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D318168EA96D0984D5D4734B</key>
+		<key>A0711F83DC5672B87311A69E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AA5126FCD0C81430C3BB9DD2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B8B1610837EDE1F46AE8898E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D1E259B47B79882D1280E671</key>
 		<dict>
 			<key>primary</key>
 			<true/>

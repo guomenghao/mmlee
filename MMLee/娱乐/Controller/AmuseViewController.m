@@ -7,9 +7,11 @@
 //
 
 #import "AmuseViewController.h"
-
-@interface AmuseViewController ()
-
+#import "MainPageView.h"
+#import <MapKit/MapKit.h>
+@interface AmuseViewController ()<MainPageViewDelegate, UISearchResultsUpdating>
+@property (nonatomic,strong)MainPageView *mainPageView;
+- (void)initializeAppearance;
 @end
 
 @implementation AmuseViewController
@@ -26,9 +28,39 @@
     return self;
 }
 
+- (MainPageView *)mainPageView {
+    
+    if (!_mainPageView) {
+        
+        _mainPageView = ({
+            
+            MainPageView *view = [[MainPageView alloc] initWithFrame:self.view.bounds];
+            _mainPageView.delegate = self;
+            view;
+        });
+    }
+    return _mainPageView;
+}
+
+- (void)initializeAppearance {
+    [self.view addSubview:self.mainPageView];
+    
+    if (![CLLocationManager locationServicesEnabled]) {
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"那啥" message:@"你的设备不能定位" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *action = [UIAlertAction actionWithTitle:@"我知道了" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+            [alert resignFirstResponder];
+        }];
+        [alert addAction:action];
+        [self presentViewController:alert animated:YES completion:^{
+            
+        }];
+        
+    }
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self initializeAppearance];
 }
 
 

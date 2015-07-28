@@ -15,6 +15,8 @@
 #import "NewsViewController.h"
 #import "MusicViewController.h"
 #import "AmuseViewController.h"
+#import "JHAPISDK.h"
+#import "JHOpenidSupplier.h"
 @interface AppDelegate ()
 
 @end
@@ -45,6 +47,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[JHOpenidSupplier shareSupplier] registerJuheAPIByOpenId:@"JHf75c2f4f3b10bf41a03d3a45abae9946"];
     [self.window makeKeyAndVisible];
     return YES;
 }
