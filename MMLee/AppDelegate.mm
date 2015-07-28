@@ -17,6 +17,7 @@
 #import "AmuseViewController.h"
 #import "JHAPISDK.h"
 #import "JHOpenidSupplier.h"
+#import "NewsTableViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -31,7 +32,9 @@
             UIWindow * window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
             MainViewController *mainViewController = [[MainViewController alloc] init];
             UINavigationController *navMap = [[UINavigationController alloc] initWithRootViewController:[[MapViewController alloc] init]];
-            UINavigationController *navNews = [[UINavigationController alloc] initWithRootViewController:[[NewsViewController alloc] init]];
+            NewsTableViewController *NewsVc = [[UIStoryboard storyboardWithName:@"News" bundle:[NSBundle mainBundle]] instantiateInitialViewController];
+            NewsVc.title = @"当下热闻";
+            UINavigationController *navNews = [[UINavigationController alloc] initWithRootViewController:NewsVc];
             UINavigationController *navMusic = [[UINavigationController alloc] initWithRootViewController:[[MusicViewController alloc] init]];
             UINavigationController *navAmuse = [[UINavigationController alloc] initWithRootViewController:[[AmuseViewController alloc] init]];
             mainViewController.childControllers = @[navNews,navMusic,navAmuse,navMap];
