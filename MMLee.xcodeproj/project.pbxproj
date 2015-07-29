@@ -14,6 +14,7 @@
 		9803E7341B5E31A100ACE445 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9803E7321B5E31A100ACE445 /* Main.storyboard */; };
 		9803E7391B5E31A100ACE445 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9803E7371B5E31A100ACE445 /* LaunchScreen.xib */; };
 		9803E7451B5E31A100ACE445 /* MMLeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9803E7441B5E31A100ACE445 /* MMLeeTests.m */; };
+		98044BF81B688EBD00863077 /* libUMSocial_Sdk_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98044BF71B688EBD00863077 /* libUMSocial_Sdk_4.2.3.a */; };
 		98095F861B64D94D00F203F5 /* SearchListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98095F851B64D94D00F203F5 /* SearchListView.m */; };
 		98095F8A1B64DFFC00F203F5 /* MusicSearchTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98095F881B64DFFC00F203F5 /* MusicSearchTableViewCell.m */; };
 		98095F8B1B64DFFC00F203F5 /* MusicSearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98095F891B64DFFC00F203F5 /* MusicSearchTableViewCell.xib */; };
@@ -174,6 +175,7 @@
 		9803E73E1B5E31A100ACE445 /* MMLeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMLeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9803E7431B5E31A100ACE445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9803E7441B5E31A100ACE445 /* MMLeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMLeeTests.m; sourceTree = "<group>"; };
+		98044BF71B688EBD00863077 /* libUMSocial_Sdk_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_4.2.3.a; sourceTree = "<group>"; };
 		98095F841B64D94D00F203F5 /* SearchListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchListView.h; sourceTree = "<group>"; };
 		98095F851B64D94D00F203F5 /* SearchListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchListView.m; sourceTree = "<group>"; };
 		98095F871B64DFFC00F203F5 /* MusicSearchTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicSearchTableViewCell.h; sourceTree = "<group>"; };
@@ -244,7 +246,6 @@
 		982A4B031B677A77009C87B1 /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
 		982A4B041B677A77009C87B1 /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
 		982A4B051B677A77009C87B1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
-		982A4B111B677AA6009C87B1 /* libUMSocial_Sdk_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUMSocial_Sdk_4.2.3.a; path = "../一起看电影/一起看电影/UMSocial_Sdk_4.2.3/libUMSocial_Sdk_4.2.3.a"; sourceTree = "<group>"; };
 		982A4B131B677B13009C87B1 /* CinemaFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinemaFrame.h; sourceTree = "<group>"; };
 		982A4B141B677B13009C87B1 /* CinemaFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinemaFrame.m; sourceTree = "<group>"; };
 		982A4B161B677BE6009C87B1 /* ConnectingCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectingCheck.h; sourceTree = "<group>"; };
@@ -422,6 +423,7 @@
 				98DBA4841B65E858000B0790 /* AdSupport.framework in Frameworks */,
 				98DBA4821B65E84C000B0790 /* CoreTelephony.framework in Frameworks */,
 				982A4B071B677A77009C87B1 /* libUMSocial_Sdk_4.2.3.a in Frameworks */,
+				98044BF81B688EBD00863077 /* libUMSocial_Sdk_4.2.3.a in Frameworks */,
 				C10AA86A9FAFF5471ACF1D7A /* libPods.a in Frameworks */,
 				98DBA4801B65E826000B0790 /* JuheApisSDK.a in Frameworks */,
 			);
@@ -449,7 +451,7 @@
 		945109DB27BB06CC3CB33298 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				982A4B111B677AA6009C87B1 /* libUMSocial_Sdk_4.2.3.a */,
+				98044BF71B688EBD00863077 /* libUMSocial_Sdk_4.2.3.a */,
 				98DBA4851B65E862000B0790 /* CoreLocation.framework */,
 				98DBA4831B65E858000B0790 /* AdSupport.framework */,
 				98DBA4811B65E84C000B0790 /* CoreTelephony.framework */,
@@ -1617,6 +1619,7 @@
 					"$(PROJECT_DIR)/MMLee/第三方库/JuheApisSDK",
 					"$(PROJECT_DIR)/MMLee/第三方库/UMSocial_Sdk_4.2.3",
 					"/Users/guomenghao/Desktop/一起看电影/一起看电影/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.guomenghao.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1635,6 +1638,7 @@
 					"$(PROJECT_DIR)/MMLee/第三方库/JuheApisSDK",
 					"$(PROJECT_DIR)/MMLee/第三方库/UMSocial_Sdk_4.2.3",
 					"/Users/guomenghao/Desktop/一起看电影/一起看电影/UMSocial_Sdk_4.2.3",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.guomenghao.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
