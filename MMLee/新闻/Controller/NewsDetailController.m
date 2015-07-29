@@ -1,18 +1,18 @@
 //
 //  SXDetailController.m
-//  81 - 网易新闻
+//  MMLee
 //
-//  Created by 董 尚先 on 15-1-24.
-//  Copyright (c) 2015年 ShangxianDante. All rights reserved.
+//  Created by 郭梦浩 on 15-1-24.
+//  Copyright (c) 2015年. All rights reserved.
 //
 
 #import "NewsDetailController.h"
 #import "NewsDetailModel.h"
 #import "NewsDetailImgModel.h"
 #import "NewsHTTPManager.h"
-
-#import "NewsReplyModel.h"
 #import "NewsReplyViewController.h"
+#import "NewsReplyModel.h"
+
 
 @interface NewsDetailController ()<UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
@@ -221,11 +221,37 @@
     [self presentViewController:alert animated:YES completion:nil];
 }
 
-#pragma mark - ******************** 即将跳转时
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    NewsReplyViewController *replyvc = segue.destinationViewController;
-    replyvc.replys = self.replyModels;
+//#pragma mark - 即将跳转时
+//- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+//{
+//    NewsReplyViewController *replyvc = segue.destinationViewController;
+//    replyvc.replys = self.replyModels;
+//    
+//    if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
+//        self.navigationController.interactivePopGestureRecognizer.delegate = nil;
+//    }
+//    
+//    [[NSNotificationCenter defaultCenter]postNotification:[NSNotification notificationWithName:@"contentStart" object:nil]];
+//}
+
+
+
+
+
+- (IBAction)getBackButton:(UIButton *)sender {
+    
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (IBAction)repalyButton:(UIButton *)sender {
+    
+    UIStoryboard *story = [UIStoryboard  storyboardWithName:@"News"   bundle:nil];
+    
+    //3.从storyboard取得newViewCtroller对象，通过Identifier区分
+    NewsReplyViewController *nvc = [story instantiateViewControllerWithIdentifier:@"NewsReplyViewController"];
+    [self.navigationController pushViewController:nvc
+                                         animated:YES];
+    nvc.replys = self.replyModels;
     
     if ([self.navigationController respondsToSelector:@selector(interactivePopGestureRecognizer)]) {
         self.navigationController.interactivePopGestureRecognizer.delegate = nil;
@@ -233,9 +259,4 @@
     
     [[NSNotificationCenter defaultCenter]postNotification:[NSNotification notificationWithName:@"contentStart" object:nil]];
 }
-
-
-
-
-
 @end

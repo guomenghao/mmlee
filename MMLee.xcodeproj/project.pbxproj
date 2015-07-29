@@ -32,6 +32,28 @@
 		9817E5B31B60BF9600A4E2E6 /* MusicCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9817E5B01B60BF9600A4E2E6 /* MusicCollectionReusableView.m */; };
 		9817E5B41B60BF9600A4E2E6 /* MusicItemCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9817E5B21B60BF9600A4E2E6 /* MusicItemCollectionViewCell.m */; };
 		9817E5B71B60C5A000A4E2E6 /* MusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9817E5B61B60C5A000A4E2E6 /* MusicModel.m */; };
+		982A4ADB1B67792D009C87B1 /* DetailMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982A4ADA1B67792D009C87B1 /* DetailMovieViewController.m */; };
+		982A4ADE1B67793C009C87B1 /* CinemasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982A4ADD1B67793C009C87B1 /* CinemasViewController.m */; };
+		982A4AE11B6779EA009C87B1 /* CinemasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 982A4AE01B6779EA009C87B1 /* CinemasView.m */; };
+		982A4AE41B6779F4009C87B1 /* DetialMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 982A4AE31B6779F4009C87B1 /* DetialMovieView.m */; };
+		982A4AE71B677A0C009C87B1 /* CinemaCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 982A4AE61B677A0C009C87B1 /* CinemaCell.m */; };
+		982A4AEA1B677A16009C87B1 /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 982A4AE91B677A16009C87B1 /* CustomNavigationBar.m */; };
+		982A4B061B677A77009C87B1 /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 982A4AEC1B677A77009C87B1 /* UMSocialLocalizable.strings */; };
+		982A4B071B677A77009C87B1 /* libUMSocial_Sdk_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 982A4AFA1B677A77009C87B1 /* libUMSocial_Sdk_4.2.3.a */; };
+		982A4B081B677A77009C87B1 /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982A4AFC1B677A77009C87B1 /* UMSCommentDetailController.xib */; };
+		982A4B091B677A77009C87B1 /* UMSCommentInputController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982A4AFD1B677A77009C87B1 /* UMSCommentInputController.xib */; };
+		982A4B0A1B677A77009C87B1 /* UMSCommentInputControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982A4AFE1B677A77009C87B1 /* UMSCommentInputControlleriPad.xib */; };
+		982A4B0B1B677A77009C87B1 /* UMShareEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982A4AFF1B677A77009C87B1 /* UMShareEditViewController.xib */; };
+		982A4B0C1B677A77009C87B1 /* UMShareEditViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982A4B001B677A77009C87B1 /* UMShareEditViewControlleriPad.xib */; };
+		982A4B0D1B677A77009C87B1 /* UMSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982A4B011B677A77009C87B1 /* UMSLoginViewController.xib */; };
+		982A4B0E1B677A77009C87B1 /* UMSnsAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982A4B021B677A77009C87B1 /* UMSnsAccountViewController.xib */; };
+		982A4B0F1B677A77009C87B1 /* UMSShareListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982A4B031B677A77009C87B1 /* UMSShareListController.xib */; };
+		982A4B101B677A77009C87B1 /* UMSocialSDKResourcesNew.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 982A4B041B677A77009C87B1 /* UMSocialSDKResourcesNew.bundle */; };
+		982A4B151B677B13009C87B1 /* CinemaFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 982A4B141B677B13009C87B1 /* CinemaFrame.m */; };
+		982A4B181B677BE6009C87B1 /* ConnectingCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 982A4B171B677BE6009C87B1 /* ConnectingCheck.m */; };
+		982A4B1B1B677C43009C87B1 /* MovieInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 982A4B1A1B677C43009C87B1 /* MovieInfoModel.m */; };
+		982A4B201B678538009C87B1 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 982A4B1D1B678538009C87B1 /* Reachability.m */; };
+		982A4B211B678538009C87B1 /* Reachability-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 982A4B1E1B678538009C87B1 /* Reachability-Info.plist */; };
 		98314AAA1B5FE8050028272A /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98314AA81B5FE8050028272A /* ChatViewController.m */; };
 		98314AAB1B5FE8050028272A /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98314AA91B5FE8050028272A /* ChatViewController.xib */; };
 		983443031B5E39CC0053E65C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983443021B5E39CC0053E65C /* MainViewController.m */; };
@@ -187,6 +209,52 @@
 		9817E5B21B60BF9600A4E2E6 /* MusicItemCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicItemCollectionViewCell.m; sourceTree = "<group>"; };
 		9817E5B51B60C5A000A4E2E6 /* MusicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicModel.h; sourceTree = "<group>"; };
 		9817E5B61B60C5A000A4E2E6 /* MusicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MusicModel.m; sourceTree = "<group>"; };
+		982A4AD91B67792D009C87B1 /* DetailMovieViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailMovieViewController.h; sourceTree = "<group>"; };
+		982A4ADA1B67792D009C87B1 /* DetailMovieViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailMovieViewController.m; sourceTree = "<group>"; };
+		982A4ADC1B67793C009C87B1 /* CinemasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinemasViewController.h; sourceTree = "<group>"; };
+		982A4ADD1B67793C009C87B1 /* CinemasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinemasViewController.m; sourceTree = "<group>"; };
+		982A4ADF1B6779EA009C87B1 /* CinemasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinemasView.h; sourceTree = "<group>"; };
+		982A4AE01B6779EA009C87B1 /* CinemasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinemasView.m; sourceTree = "<group>"; };
+		982A4AE21B6779F4009C87B1 /* DetialMovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetialMovieView.h; sourceTree = "<group>"; };
+		982A4AE31B6779F4009C87B1 /* DetialMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetialMovieView.m; sourceTree = "<group>"; };
+		982A4AE51B677A0C009C87B1 /* CinemaCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinemaCell.h; sourceTree = "<group>"; };
+		982A4AE61B677A0C009C87B1 /* CinemaCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinemaCell.m; sourceTree = "<group>"; };
+		982A4AE81B677A16009C87B1 /* CustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
+		982A4AE91B677A16009C87B1 /* CustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
+		982A4AED1B677A77009C87B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
+		982A4AEF1B677A77009C87B1 /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
+		982A4AF01B677A77009C87B1 /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
+		982A4AF11B677A77009C87B1 /* UMSocialBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialBar.h; sourceTree = "<group>"; };
+		982A4AF21B677A77009C87B1 /* UMSocialConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialConfig.h; sourceTree = "<group>"; };
+		982A4AF31B677A77009C87B1 /* UMSocialControllerService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerService.h; sourceTree = "<group>"; };
+		982A4AF41B677A77009C87B1 /* UMSocialControllerServiceComment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialControllerServiceComment.h; sourceTree = "<group>"; };
+		982A4AF51B677A77009C87B1 /* UMSocialData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialData.h; sourceTree = "<group>"; };
+		982A4AF61B677A77009C87B1 /* UMSocialDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialDataService.h; sourceTree = "<group>"; };
+		982A4AF71B677A77009C87B1 /* UMSocialSnsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsData.h; sourceTree = "<group>"; };
+		982A4AF81B677A77009C87B1 /* UMSocialSnsPlatformManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsPlatformManager.h; sourceTree = "<group>"; };
+		982A4AF91B677A77009C87B1 /* UMSocialSnsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialSnsService.h; sourceTree = "<group>"; };
+		982A4AFA1B677A77009C87B1 /* libUMSocial_Sdk_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libUMSocial_Sdk_4.2.3.a; sourceTree = "<group>"; };
+		982A4AFC1B677A77009C87B1 /* UMSCommentDetailController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentDetailController.xib; sourceTree = "<group>"; };
+		982A4AFD1B677A77009C87B1 /* UMSCommentInputController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputController.xib; sourceTree = "<group>"; };
+		982A4AFE1B677A77009C87B1 /* UMSCommentInputControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSCommentInputControlleriPad.xib; sourceTree = "<group>"; };
+		982A4AFF1B677A77009C87B1 /* UMShareEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewController.xib; sourceTree = "<group>"; };
+		982A4B001B677A77009C87B1 /* UMShareEditViewControlleriPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMShareEditViewControlleriPad.xib; sourceTree = "<group>"; };
+		982A4B011B677A77009C87B1 /* UMSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSLoginViewController.xib; sourceTree = "<group>"; };
+		982A4B021B677A77009C87B1 /* UMSnsAccountViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSnsAccountViewController.xib; sourceTree = "<group>"; };
+		982A4B031B677A77009C87B1 /* UMSShareListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UMSShareListController.xib; sourceTree = "<group>"; };
+		982A4B041B677A77009C87B1 /* UMSocialSDKResourcesNew.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = UMSocialSDKResourcesNew.bundle; sourceTree = "<group>"; };
+		982A4B051B677A77009C87B1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/UMSocialLocalizable.strings"; sourceTree = "<group>"; };
+		982A4B111B677AA6009C87B1 /* libUMSocial_Sdk_4.2.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libUMSocial_Sdk_4.2.3.a; path = "../一起看电影/一起看电影/UMSocial_Sdk_4.2.3/libUMSocial_Sdk_4.2.3.a"; sourceTree = "<group>"; };
+		982A4B131B677B13009C87B1 /* CinemaFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CinemaFrame.h; sourceTree = "<group>"; };
+		982A4B141B677B13009C87B1 /* CinemaFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CinemaFrame.m; sourceTree = "<group>"; };
+		982A4B161B677BE6009C87B1 /* ConnectingCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectingCheck.h; sourceTree = "<group>"; };
+		982A4B171B677BE6009C87B1 /* ConnectingCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectingCheck.m; sourceTree = "<group>"; };
+		982A4B191B677C43009C87B1 /* MovieInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieInfoModel.h; sourceTree = "<group>"; };
+		982A4B1A1B677C43009C87B1 /* MovieInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieInfoModel.m; sourceTree = "<group>"; };
+		982A4B1C1B678538009C87B1 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		982A4B1D1B678538009C87B1 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		982A4B1E1B678538009C87B1 /* Reachability-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Reachability-Info.plist"; sourceTree = "<group>"; };
+		982A4B1F1B678538009C87B1 /* Reachability-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Reachability-Prefix.pch"; sourceTree = "<group>"; };
 		98314AA71B5FE8050028272A /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		98314AA81B5FE8050028272A /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
 		98314AA91B5FE8050028272A /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
@@ -353,6 +421,7 @@
 				98DBA4861B65E862000B0790 /* CoreLocation.framework in Frameworks */,
 				98DBA4841B65E858000B0790 /* AdSupport.framework in Frameworks */,
 				98DBA4821B65E84C000B0790 /* CoreTelephony.framework in Frameworks */,
+				982A4B071B677A77009C87B1 /* libUMSocial_Sdk_4.2.3.a in Frameworks */,
 				C10AA86A9FAFF5471ACF1D7A /* libPods.a in Frameworks */,
 				98DBA4801B65E826000B0790 /* JuheApisSDK.a in Frameworks */,
 			);
@@ -380,6 +449,7 @@
 		945109DB27BB06CC3CB33298 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				982A4B111B677AA6009C87B1 /* libUMSocial_Sdk_4.2.3.a */,
 				98DBA4851B65E862000B0790 /* CoreLocation.framework */,
 				98DBA4831B65E858000B0790 /* AdSupport.framework */,
 				98DBA4811B65E84C000B0790 /* CoreTelephony.framework */,
@@ -544,6 +614,13 @@
 		9803E7611B5E343500ACE445 /* 第三方库 */ = {
 			isa = PBXGroup;
 			children = (
+				982A4B161B677BE6009C87B1 /* ConnectingCheck.h */,
+				982A4B171B677BE6009C87B1 /* ConnectingCheck.m */,
+				982A4B1C1B678538009C87B1 /* Reachability.h */,
+				982A4B1D1B678538009C87B1 /* Reachability.m */,
+				982A4B1E1B678538009C87B1 /* Reachability-Info.plist */,
+				982A4B1F1B678538009C87B1 /* Reachability-Prefix.pch */,
+				982A4AEB1B677A77009C87B1 /* UMSocial_Sdk_4.2.3 */,
 				98DD3A1A1B6721F500F165D4 /* UIView+Frame.h */,
 				98DD3A1B1B6721F500F165D4 /* UIView+Frame.m */,
 				98DD3A1D1B67228400F165D4 /* NewsHTTPManager.h */,
@@ -901,6 +978,12 @@
 			children = (
 				9834431A1B5E40720053E65C /* AmuseViewController.h */,
 				9834431B1B5E40720053E65C /* AmuseViewController.m */,
+				982A4AD91B67792D009C87B1 /* DetailMovieViewController.h */,
+				982A4ADA1B67792D009C87B1 /* DetailMovieViewController.m */,
+				982A4ADC1B67793C009C87B1 /* CinemasViewController.h */,
+				982A4ADD1B67793C009C87B1 /* CinemasViewController.m */,
+				982A4AE81B677A16009C87B1 /* CustomNavigationBar.h */,
+				982A4AE91B677A16009C87B1 /* CustomNavigationBar.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -919,10 +1002,14 @@
 				98DBA4941B6627DE000B0790 /* MovieModel.m */,
 				98DBA4961B6627F3000B0790 /* MovieViewModel.h */,
 				98DBA4971B6627F3000B0790 /* MovieViewModel.m */,
+				982A4B191B677C43009C87B1 /* MovieInfoModel.h */,
+				982A4B1A1B677C43009C87B1 /* MovieInfoModel.m */,
 				98DBA4991B662F5A000B0790 /* cinemaModel.h */,
 				98DBA49A1B662F5A000B0790 /* cinemaModel.m */,
 				98DBA49C1B662FB9000B0790 /* CinemaViewModel.h */,
 				98DBA49D1B662FB9000B0790 /* CinemaViewModel.m */,
+				982A4B131B677B13009C87B1 /* CinemaFrame.h */,
+				982A4B141B677B13009C87B1 /* CinemaFrame.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -930,6 +1017,12 @@
 		9803E7831B5E343500ACE445 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				982A4AE51B677A0C009C87B1 /* CinemaCell.h */,
+				982A4AE61B677A0C009C87B1 /* CinemaCell.m */,
+				982A4AE21B6779F4009C87B1 /* DetialMovieView.h */,
+				982A4AE31B6779F4009C87B1 /* DetialMovieView.m */,
+				982A4ADF1B6779EA009C87B1 /* CinemasView.h */,
+				982A4AE01B6779EA009C87B1 /* CinemasView.m */,
 				98DBA4871B65F498000B0790 /* MainPageView.h */,
 				98DBA4881B65F498000B0790 /* MainPageView.m */,
 				98DBA48A1B65F593000B0790 /* PagedFlowView.h */,
@@ -972,6 +1065,51 @@
 				9817E5A01B60AD4700A4E2E6 /* TAPageControl.m */,
 			);
 			path = PageControl;
+			sourceTree = "<group>";
+		};
+		982A4AEB1B677A77009C87B1 /* UMSocial_Sdk_4.2.3 */ = {
+			isa = PBXGroup;
+			children = (
+				982A4AEC1B677A77009C87B1 /* UMSocialLocalizable.strings */,
+				982A4AEE1B677A77009C87B1 /* Header */,
+				982A4AFA1B677A77009C87B1 /* libUMSocial_Sdk_4.2.3.a */,
+				982A4AFB1B677A77009C87B1 /* SocialSDKXib */,
+				982A4B041B677A77009C87B1 /* UMSocialSDKResourcesNew.bundle */,
+			);
+			path = UMSocial_Sdk_4.2.3;
+			sourceTree = "<group>";
+		};
+		982A4AEE1B677A77009C87B1 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				982A4AEF1B677A77009C87B1 /* UMSocial.h */,
+				982A4AF01B677A77009C87B1 /* UMSocialAccountManager.h */,
+				982A4AF11B677A77009C87B1 /* UMSocialBar.h */,
+				982A4AF21B677A77009C87B1 /* UMSocialConfig.h */,
+				982A4AF31B677A77009C87B1 /* UMSocialControllerService.h */,
+				982A4AF41B677A77009C87B1 /* UMSocialControllerServiceComment.h */,
+				982A4AF51B677A77009C87B1 /* UMSocialData.h */,
+				982A4AF61B677A77009C87B1 /* UMSocialDataService.h */,
+				982A4AF71B677A77009C87B1 /* UMSocialSnsData.h */,
+				982A4AF81B677A77009C87B1 /* UMSocialSnsPlatformManager.h */,
+				982A4AF91B677A77009C87B1 /* UMSocialSnsService.h */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		982A4AFB1B677A77009C87B1 /* SocialSDKXib */ = {
+			isa = PBXGroup;
+			children = (
+				982A4AFC1B677A77009C87B1 /* UMSCommentDetailController.xib */,
+				982A4AFD1B677A77009C87B1 /* UMSCommentInputController.xib */,
+				982A4AFE1B677A77009C87B1 /* UMSCommentInputControlleriPad.xib */,
+				982A4AFF1B677A77009C87B1 /* UMShareEditViewController.xib */,
+				982A4B001B677A77009C87B1 /* UMShareEditViewControlleriPad.xib */,
+				982A4B011B677A77009C87B1 /* UMSLoginViewController.xib */,
+				982A4B021B677A77009C87B1 /* UMSnsAccountViewController.xib */,
+				982A4B031B677A77009C87B1 /* UMSShareListController.xib */,
+			);
+			path = SocialSDKXib;
 			sourceTree = "<group>";
 		};
 		98DBA4761B65C31B000B0790 /* CCAudioPlayer */ = {
@@ -1133,6 +1271,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 9803E7191B5E31A100ACE445;
 			productRefGroup = 9803E7231B5E31A100ACE445 /* Products */;
@@ -1153,21 +1292,29 @@
 				98DD8AA41B6221580079B199 /* iconfont-iosarrowup.png in Resources */,
 				98DD8A921B61ECE50079B199 /* shouye_23.png in Resources */,
 				98DD39D21B670EA400F165D4 /* NewsReplyHeader.xib in Resources */,
+				982A4B211B678538009C87B1 /* Reachability-Info.plist in Resources */,
 				98E5E9981B5F9BA9007323D2 /* iconfont-houtui@3x.png in Resources */,
 				98E5E99D1B5FA273007323D2 /* InfoTableViewCell.xib in Resources */,
 				98DD8AA61B6221580079B199 /* slider.png in Resources */,
 				98DD8AA51B6221580079B199 /* iconfont-iosarrowup@2X.png in Resources */,
 				98DD8AA31B6221580079B199 /* headlengthpng in Resources */,
 				98DD8A8F1B61ECE50079B199 /* shouye_09-10.png in Resources */,
+				982A4B0F1B677A77009C87B1 /* UMSShareListController.xib in Resources */,
 				98DD8A8A1B61ECE50079B199 /* 1-1_05.png in Resources */,
+				982A4B091B677A77009C87B1 /* UMSCommentInputController.xib in Resources */,
+				982A4B0B1B677A77009C87B1 /* UMShareEditViewController.xib in Resources */,
 				98DD8AA21B6221580079B199 /* album.png in Resources */,
+				982A4B0E1B677A77009C87B1 /* UMSnsAccountViewController.xib in Resources */,
 				98DD3B051B67248400F165D4 /* Images.xcassets in Resources */,
 				98095F8B1B64DFFC00F203F5 /* MusicSearchTableViewCell.xib in Resources */,
 				98DD8A901B61ECE50079B199 /* shouye_11-14.png in Resources */,
+				982A4B101B677A77009C87B1 /* UMSocialSDKResourcesNew.bundle in Resources */,
 				9803E7341B5E31A100ACE445 /* Main.storyboard in Resources */,
 				98E5E9891B5F7CC2007323D2 /* iconfont-liaotianduihua@3x.png in Resources */,
 				98DD8A8C1B61ECE50079B199 /* 1-1_14.png in Resources */,
+				982A4B0A1B677A77009C87B1 /* UMSCommentInputControlleriPad.xib in Resources */,
 				98E5E9871B5F7C1B007323D2 /* iconfont-gerenzhongxin@3x .png in Resources */,
+				982A4B081B677A77009C87B1 /* UMSCommentDetailController.xib in Resources */,
 				98DD8A891B61ECE50079B199 /* 1-1_04-08.png in Resources */,
 				98E5E98C1B5F7CCF007323D2 /* iconfont-gerenzhongxin.png in Resources */,
 				98E5E9911B5F7D06007323D2 /* iconfont-liaotianduihua@2x.png in Resources */,
@@ -1176,7 +1323,10 @@
 				98DD39DD1B670EDB00F165D4 /* NewsPhotoView.xib in Resources */,
 				98E5E9901B5F7D06007323D2 /* iconfont-liaotianduihua.png in Resources */,
 				98E5E98D1B5F7CCF007323D2 /* iconfont-gerenzhongxin@2x.png in Resources */,
+				982A4B0C1B677A77009C87B1 /* UMShareEditViewControlleriPad.xib in Resources */,
 				9803E7391B5E31A100ACE445 /* LaunchScreen.xib in Resources */,
+				982A4B061B677A77009C87B1 /* UMSocialLocalizable.strings in Resources */,
+				982A4B0D1B677A77009C87B1 /* UMSLoginViewController.xib in Resources */,
 				98DD8A8B1B61ECE50079B199 /* 1-1_11.png in Resources */,
 				98DD8A8D1B61ECE50079B199 /* shouye_03-06.png in Resources */,
 				98E5E9961B5F97D8007323D2 /* IMViewController.xib in Resources */,
@@ -1235,6 +1385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9803E72B1B5E31A100ACE445 /* AppDelegate.mm in Sources */,
+				982A4B1B1B677C43009C87B1 /* MovieInfoModel.m in Sources */,
 				9817E5A91B60AD4700A4E2E6 /* TAAnimatedDotView.m in Sources */,
 				98DD3A151B6721E000F165D4 /* MJIvar.m in Sources */,
 				98095F8E1B64E9A000F203F5 /* MusicInfoModel.m in Sources */,
@@ -1247,8 +1398,10 @@
 				98DD39D81B670ED400F165D4 /* NewsPhotoSetController.m in Sources */,
 				98DD39B91B670CF700F165D4 /* NewsCell.m in Sources */,
 				98DBA49E1B662FB9000B0790 /* CinemaViewModel.m in Sources */,
+				982A4AE11B6779EA009C87B1 /* CinemasView.m in Sources */,
 				98DD3A171B6721E000F165D4 /* NSObject+MJCoding.m in Sources */,
 				9803E7311B5E31A100ACE445 /* ViewController.m in Sources */,
+				982A4AE41B6779F4009C87B1 /* DetialMovieView.m in Sources */,
 				98DBA48C1B65F593000B0790 /* PagedFlowView.m in Sources */,
 				98DBA49B1B662F5A000B0790 /* cinemaModel.m in Sources */,
 				98DD3A1C1B6721F500F165D4 /* UIView+Frame.m in Sources */,
@@ -1259,6 +1412,7 @@
 				9834430A1B5E3FED0053E65C /* MapViewController.m in Sources */,
 				9817E5B71B60C5A000A4E2E6 /* MusicModel.m in Sources */,
 				9834430D1B5E40220053E65C /* LoginViewController.m in Sources */,
+				982A4AE71B677A0C009C87B1 /* CinemaCell.m in Sources */,
 				98DD39D11B670EA400F165D4 /* NewsReplyHeader.m in Sources */,
 				98DD39BC1B670CFE00F165D4 /* NewsModel.m in Sources */,
 				9817E5AE1B60AD4700A4E2E6 /* UIView+SDExtension.m in Sources */,
@@ -1278,17 +1432,21 @@
 				98E5E99C1B5FA273007323D2 /* InfoTableViewCell.m in Sources */,
 				98DD39E31B670EE800F165D4 /* NewsPhotosDetail.m in Sources */,
 				98DD3A141B6721E000F165D4 /* MJFoundation.m in Sources */,
+				982A4ADB1B67792D009C87B1 /* DetailMovieViewController.m in Sources */,
 				98095F911B64EA0B00F203F5 /* MusicInfoViewModel.m in Sources */,
 				98E5E9851B5F6635007323D2 /* SearchView.m in Sources */,
 				98095F971B65285C00F203F5 /* WriteAndReadMethod.m in Sources */,
 				9817E5B41B60BF9600A4E2E6 /* MusicItemCollectionViewCell.m in Sources */,
+				982A4ADE1B67793C009C87B1 /* CinemasViewController.m in Sources */,
 				9803E7281B5E31A100ACE445 /* main.m in Sources */,
 				98DD8A991B61ED660079B199 /* UIColor+RGBValues.m in Sources */,
 				98DD39FE1B67100600F165D4 /* UIScrollView+MJRefresh.m in Sources */,
 				98DD39FB1B67100600F165D4 /* MJRefreshFooterView.m in Sources */,
+				982A4B201B678538009C87B1 /* Reachability.m in Sources */,
 				98095F8A1B64DFFC00F203F5 /* MusicSearchTableViewCell.m in Sources */,
 				98095F941B6524D900F203F5 /* UserData.m in Sources */,
 				98095F861B64D94D00F203F5 /* SearchListView.m in Sources */,
+				982A4B181B677BE6009C87B1 /* ConnectingCheck.m in Sources */,
 				98DD39FF1B67100600F165D4 /* UIView+MJExtension.m in Sources */,
 				98DBA4891B65F498000B0790 /* MainPageView.m in Sources */,
 				98DD39CA1B670E9000F165D4 /* NewsReplyViewController.m in Sources */,
@@ -1305,9 +1463,11 @@
 				98DBA4951B6627DF000B0790 /* MovieModel.m in Sources */,
 				9817E5A81B60AD4700A4E2E6 /* TAAbstractDotView.m in Sources */,
 				98DD39DC1B670EDB00F165D4 /* NewsPhotoView.m in Sources */,
+				982A4AEA1B677A16009C87B1 /* CustomNavigationBar.m in Sources */,
 				9817E5AD1B60AD4700A4E2E6 /* SDCycleScrollView.m in Sources */,
 				9817E5A71B60AD4700A4E2E6 /* NSData+SDDataCache.m in Sources */,
 				98DBA4981B6627F3000B0790 /* MovieViewModel.m in Sources */,
+				982A4B151B677B13009C87B1 /* CinemaFrame.m in Sources */,
 				98E5E9951B5F97D8007323D2 /* IMViewController.m in Sources */,
 				98DBA4921B65F7E7000B0790 /* CustomButton.m in Sources */,
 				98314AAA1B5FE8050028272A /* ChatViewController.m in Sources */,
@@ -1348,6 +1508,15 @@
 				9803E7381B5E31A100ACE445 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		982A4AEC1B677A77009C87B1 /* UMSocialLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				982A4AED1B677A77009C87B1 /* en */,
+				982A4B051B677A77009C87B1 /* zh-Hans */,
+			);
+			name = UMSocialLocalizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1446,6 +1615,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MMLee/第三方库/JuheApisSDK",
+					"$(PROJECT_DIR)/MMLee/第三方库/UMSocial_Sdk_4.2.3",
+					"/Users/guomenghao/Desktop/一起看电影/一起看电影/UMSocial_Sdk_4.2.3",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.guomenghao.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1462,6 +1633,8 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MMLee/第三方库/JuheApisSDK",
+					"$(PROJECT_DIR)/MMLee/第三方库/UMSocial_Sdk_4.2.3",
+					"/Users/guomenghao/Desktop/一起看电影/一起看电影/UMSocial_Sdk_4.2.3",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.guomenghao.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";

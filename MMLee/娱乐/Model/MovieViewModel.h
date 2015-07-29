@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface MovieViewModel : NSObject
-
+@property (nonatomic,strong)id movieListResponseObject;
+@property (nonatomic,strong)id movieInfoResponseObject;
+@property (nonatomic,strong)id movieWithNameResponseObject;
+- (void)postMovieList;
+- (void)postMovieInfo:(NSString *)movieId;
+- (void)postMovieInfoWith:(NSString *)movieName;
 @end

@@ -11,5 +11,5 @@
 #import <MapKit/MapKit.h>
 @interface CinemaViewModel : NSObject
 @property (nonatomic,strong)id cinemaResponseObject;
-- (void)postMovieInfo:(CLLocationCoordinate2D)coordinate didUpdateToLocation:(CLLocation *)newLocation;
+- (void)postCinemaInfo:(CLLocationCoordinate2D)coordinate didUpdateToLocation:(CLLocation *)newLocation;
 @end

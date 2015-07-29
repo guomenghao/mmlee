@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "RatingView.h"
 #import <UIKit/UIKit.h>
-
+#import "PagedFlowView.h"
 @protocol MainPageViewDelegate <NSObject>
 
 /**
@@ -34,16 +34,28 @@
  */
 - (void)mainPageViewCinameButtonPressWithCinemas:(NSArray *)cinemas;
 
+/**
+ *  电影详情
+ *
+ *  @param movieId 电影Id
+ */
+
+- (void)movieInfoWithMovieId:(NSString *)movieId;
 @end
 
-@interface MainPageView : UIView {
-    
-    
-}
-
+@interface MainPageView : UIView
 @property (nonatomic, weak) id<MainPageViewDelegate>  delegate;
 @property (nonatomic, strong) NSMutableArray *dataSource;
 @property (nonatomic, strong) UILabel *movieName;
-
+@property (nonatomic,strong)PagedFlowView *topView;
+@property (nonatomic,strong)UIView *midView;
+@property (nonatomic,strong)UIView *detailView;
+@property (nonatomic,strong)UILabel *actorsLabel;
+@property (nonatomic,strong)UILabel *introduceLabel;
+@property (nonatomic,strong)UIImageView *backgroundView;
+@property (nonatomic,strong)UIScrollView *wholePageScrollView;
+@property (nonatomic,strong)RatingView *ratingView;
+@property (nonatomic,strong) NSDictionary *fontDic;
+- (CGSize)sizeWithText:(NSString *)text font:(UIFont *)font maxSize:(CGSize)maxSize;
 @end
 

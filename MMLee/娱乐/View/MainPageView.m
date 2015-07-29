@@ -8,27 +8,23 @@
 
 #import "MainPageView.h"
 #import <MapKit/MapKit.h>
-#import "PagedFlowView.h"
-#import "RatingView.h"
+
+
 #import "CustomButton.h"
+#import "MovieModel.h"
 #import "PublicClass.h"
+#import <UIImageView+WebCache.h>
 @interface MainPageView ()<PagedFlowViewDelegate, PagedFlowViewDataSource, UIScrollViewDelegate, CLLocationManagerDelegate> {
 
     NSMutableArray *_detailDataSourch;
     NSMutableArray *_cinemasArray;
-    NSDictionary *_fontDic;
+   
 }
-@property (nonatomic,strong)PagedFlowView *topView;
-@property (nonatomic,strong)RatingView *ratingView;
+
 @property (nonatomic,strong)CustomButton *cinemaButton;
 @property (nonatomic,strong)CLLocationManager *locManager;
-@property (nonatomic,strong)UIScrollView *wholePageScrollView;
-@property (nonatomic,strong)UIView *midView;
-@property (nonatomic,strong)UIView *detailView;
-@property (nonatomic,strong)UILabel *actorsLabel;
-@property (nonatomic,strong)UILabel *introduceLabel;
-@property (nonatomic,strong)UIImageView *backgroundView;
 @property (nonatomic,strong)UIButton *detailBt;
+
 - (void)initializeAppearance;
 - (void)initializeDataSource;
 @end
@@ -62,7 +58,7 @@
     if (!_topView) {
         _topView = ({
             
-            PagedFlowView *view = [[PagedFlowView alloc] initWithFrame:CGRectMake(0, 80, WIDTH, HEIGHT)];
+            PagedFlowView *view = [[PagedFlowView alloc] initWithFrame:CGRectMake(0, 80 / AUTOLAYOUT_Y, WIDTH, HEIGHT / 3.0)];
             view.delegate = self;
             view.dataSource = self;
             view.minimumPageAlpha = 0.5;
@@ -247,5 +243,97 @@
     
     
 }
+#pragma mark - 按钮操作
+- (void)detialButtonPress:(UIButton *)sender {
+    
+    [self.delegate mainPageViewDetialButtonPress:sender movieName:_movieName.text];
+}
+
+- (void)cinemaButtonPress:(CustomButton *)sender {
+    
+    [self.delegate mainPageViewCinameButtonPressWithCinemas:_cinemasArray];
+    
+}
+
+
+#pragma mark - <PagedFlowViewDelegate, PagedFlowViewDataSource>
+
+- (CGSize)sizeForPageInFlowView:(PagedFlowView *)flowView {
+    
+    return CGSizeMake(180, 240);
+}
+
+- (NSInteger)numberOfPagesInFlowView:(PagedFlowView *)flowView {
+    
+    return _dataSource.count;
+}
+
+- (UIView *)flowView:(PagedFlowView *)flowView cellForPageAtIndex:(NSInteger)index {
+    
+    UIImageView *imageView = (UIImageView *)[flowView dequeueReusableCell];
+    if (!imageView) {
+        imageView = [[UIImageView alloc] init];
+        imageView.layer.cornerRadius = 6;
+        imageView.layer.masksToBounds = YES;
+    }
+    [imageView sd_setImageWithURL:[NSURL URLWithString:_dataSource[index][@"pic_url"]]];
+    if (index == 0) {
+        MovieModel *model = [[MovieModel alloc] initWithDictionary:_dataSource[index]];
+        [_backgroundView sd_setImageWithURL:[NSURL URLWithString:model.pic_url]];
+        _movieName.text = model.movieName;
+        CGSize nameSize = [self sizeWithText:_movieName.text font:_fontDic[@"movieNameFont"] maxSize:CGSizeMake(MAXFLOAT, MAXFLOAT)];
+        _movieName.bounds = CGRectMake(0, 0, nameSize.width, nameSize.height);
+        _movieName.center = CGPointMake(CGRectGetMidX(self.bounds) - nameSize.height / 2.0, CGRectGetMaxY(_topView.frame) + 15);
+        
+        _ratingView.frame = CGRectMake(CGRectGetMaxX(_movieName.frame) + 5, _movieName.frame.origin.y, _movieName.frame.size.height, _movieName.frame.size.height);
+        [self.delegate movieInfoWithMovieId:model.movieId];
+        
+    }
+    
+    return imageView;
+}
+
+- (void)flowView:(PagedFlowView *)flowView didScrollToPageAtIndex:(NSInteger)index {
+    MovieModel *model = [[MovieModel alloc] initWithDictionary:_dataSource[index]];
+    [_backgroundView sd_setImageWithURL:[NSURL URLWithString:model.pic_url]];
+    _movieName.text = model.movieName;
+    CGSize nameSize = [self sizeWithText:_movieName.text font:_fontDic[@"movieNameFont"] maxSize:CGSizeMake(MAXFLOAT, MAXFLOAT)];
+    _movieName.bounds = CGRectMake(0, 0, nameSize.width, nameSize.height);
+    _movieName.center = CGPointMake(CGRectGetMidX(self.bounds) - nameSize.height / 2.0, CGRectGetMaxY(_topView.frame) + 15);
+    
+    _ratingView.frame = CGRectMake(CGRectGetMaxX(_movieName.frame) + 5, _movieName.frame.origin.y, _movieName.frame.size.height, _movieName.frame.size.height);
+    [self.delegate movieInfoWithMovieId:model.movieId];
+    
+    
+}
+
+- (void)flowView:(PagedFlowView *)flowView didTapPageAtIndex:(NSInteger)index {
+    
+    
+    
+}
+
+#pragma mark - <UIScrollViewDelegate>
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    
+    [self.delegate mainPageViewWholePageDidScrollToContentOffset:scrollView.contentOffset];
+}
+
+/**
+ *  计算部件大小
+ *
+ *  @param text    文字内容
+ *  @param font    字体
+ *  @param maxSize 最大尺寸
+ *
+ *  @return 部件size
+ */
+- (CGSize)sizeWithText:(NSString *)text font:(UIFont *)font maxSize:(CGSize)maxSize {
+    
+    NSDictionary *attr = @{NSFontAttributeName : font};
+    return [text boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:attr context:nil].size;
+}
+
 
 @end

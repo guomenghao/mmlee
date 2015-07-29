@@ -36,6 +36,13 @@
     }
     return self;
 }
+#pragma mark - 移除监听
+
+- (void)dealloc {
+    
+    [self removeObserver:self forKeyPath:@"MusicresponseObj"];
+}
+
 #pragma mark - getter方法
 
 - (MusicViewModel *)commendMusicViewModel {

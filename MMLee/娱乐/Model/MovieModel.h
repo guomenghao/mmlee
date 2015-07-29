@@ -12,5 +12,5 @@
 @property (nonatomic, strong) NSString *movieId;
 @property (nonatomic, strong) NSString *movieName;
 @property (nonatomic, strong) NSString *pic_url;
-@property (nonatomic, strong) NSString *objectId;
+- (instancetype)initWithDictionary:(NSDictionary *)Dic;
 @end

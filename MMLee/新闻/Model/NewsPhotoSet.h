@@ -1,9 +1,9 @@
 //
 //  SXPhotoSet.h
-//  81 - 网易新闻
+//  MMLee
 //
-//  Created by 董 尚先 on 15/2/3.
-//  Copyright (c) 2015年 ShangxianDante. All rights reserved.
+//  Created by 郭梦浩 on 15/2/3.
+//  Copyright (c) 2015年. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -45,6 +45,7 @@
 // photoview_bbs 未知
 @property (nonatomic, copy) NSString *boardid;
 @property (nonatomic, copy) NSString *tcover;
+@property (nonatomic, copy) NSString *clientadurl;
 // 图片数
 @property (nonatomic, copy) NSNumber *imgsum;
 

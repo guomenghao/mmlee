@@ -9,7 +9,7 @@
 #import "CinemaViewModel.h"
 
 @implementation CinemaViewModel
-- (void)postMovieInfo:(CLLocationCoordinate2D)coordinate didUpdateToLocation:(CLLocation *)newLocation {
+- (void)postCinemaInfo:(CLLocationCoordinate2D)coordinate didUpdateToLocation:(CLLocation *)newLocation {
     coordinate = newLocation.coordinate;
     
     NSDictionary *parameter = @{@"lat" : [NSString stringWithFormat:@"%f", coordinate.latitude],

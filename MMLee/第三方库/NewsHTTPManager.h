@@ -1,9 +1,9 @@
 //
 //  SXHTTPManager.h
-//  81 - 网易新闻
+//  MMLee
 //
-//  Created by 董 尚先 on 15-1-24.
-//  Copyright (c) 2015年 ShangxianDante. All rights reserved.
+//  Created by 郭梦浩 on 15-1-24.
+//  Copyright (c) 2015年. All rights reserved.
 //
 
 #import "AFHTTPRequestOperationManager.h"
